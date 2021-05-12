@@ -1,6 +1,3 @@
-/*
-  Blink
-
   Turns an LED on for one second, then off for one second, repeatedly.
 
   Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
@@ -34,4 +31,6 @@ void loop() {
   delay(1000);                       // wait for a second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);                       // wait for a second
+
+  printf("チンチン電車");
 }
